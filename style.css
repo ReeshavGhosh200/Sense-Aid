@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "tomorrow";
+}
+
+body {
+  background: #2e2e2e;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  font-size: 20px;
+}
+
+.cen {
+  text-align: center;
+}
+
+.u {
+  text-decoration: underline;
+}
+
+table, tr, th, td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.img {
+  aspect-ratio: maintain;
+  width: 200px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.note {
+  background-color: aquamarine;
+  padding: 5px;
+  color: black;
+  font-size: 25px;
+}
+
+@media (max-width: 508px) {
+  body {
+    font-size: 16px;
+  }
+  .note {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
