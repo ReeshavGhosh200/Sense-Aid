@@ -19,3 +19,21 @@ table, tr, th, td{
 }
 table{width: 95vw; margin-left: auto; margin-right: auto;}
 th, td{text-align: center;}
+
+.om{h1{color: dodgerblue; padding: 10px; border: 5px solid; background-color: skyblue; margin: 5px;}}
+.om:hover{text-decoration: none;}
+a{text-decoration: none; color: black; font-weight: bolder;}
+a:hover{text-decoration: underline;}
+
+@media (max-width: 768px){
+    body{font-size: 20px;}
+    table{width: 100vw;
+}
+
+.c {
+    background-color: yellow;
+    font-family: arial;
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+}
