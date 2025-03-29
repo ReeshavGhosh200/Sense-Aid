@@ -46,6 +46,11 @@ th, td {
   text-decoration: none;
 }
 
+.underline {
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -64,6 +69,10 @@ a:hover {
     width: 100vw;
   }
 }
+.s {
+  text-decoration: line-through;
+}
+
 .c {
   background-color: yellow;
   font-family: arial;
