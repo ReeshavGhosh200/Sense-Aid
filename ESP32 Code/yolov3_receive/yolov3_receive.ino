@@ -3,8 +3,8 @@
 #include <HardwareSerial.h>
 
 // WiFi Credentials
-const char* ssid = "vivo V21e 5g";
-const char* password = "sigma69420";
+const char* ssid = "-";
+const char* password = "-";
 
 // UART to ESP32 #2 (BT+SD)
 #define UART_RX 16  // Connect to TX of ESP32 #2
