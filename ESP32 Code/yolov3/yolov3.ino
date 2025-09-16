@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <esp32cam.h>
  
-const char* WIFI_SSID = "vivo V21e 5g";
-const char* WIFI_PASS = "sigma69420";
+const char* WIFI_SSID = "-";
+const char* WIFI_PASS = "-";
  
 WebServer server(80);
  
